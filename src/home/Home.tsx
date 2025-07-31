@@ -1,3 +1,6 @@
+import React from "react";
+import ReactPlayer from "react-player";
+
 function Home() {
   return (
     <div>
@@ -15,6 +18,11 @@ function Home() {
         <ul>
           <li>Project goals: create a react ts app with a simple CRUD and make it sexy</li>
           <li>Css will be tailwind</li>
+          <li>packages: react player, tailwind</li>
+          <ReactPlayer 
+          src="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          controls={true}
+          />
           <li>Back-end will be done with Firebase but at some time i will make a fullstack aplication</li>
         </ul>
       </div>
