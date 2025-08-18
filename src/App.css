@@ -1,6 +1,12 @@
+body{
+  background: url('./assets/login.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
 #root {
   margin: 0 auto;
   padding: 2rem;
+  /* min-height: 80rem; */
 }
 
 div {

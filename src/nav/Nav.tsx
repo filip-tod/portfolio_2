@@ -3,6 +3,7 @@ import { Link } from "react-router";
 function Nav() {
   return (
        <nav>
+        <Link to="/login">Login</Link>
         <Link to="/">Home</Link>
         <Link to="/dashboard">Dashboard</Link>
         <Link to="/map">Map</Link>
